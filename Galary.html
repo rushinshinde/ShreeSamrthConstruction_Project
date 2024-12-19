@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Samarth Construction Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Galary.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+                <div class="logo">
+                    <!--- <img class="logo.png"  alt="Logo"> -->
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="AboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Galary.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ContactUs.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="container py-5">
+            <div class="gallery-container p-4 p-md-5">
+                <h1 class="text-center mb-5 animated-title">Shri Samarth Construction Gallery</h1>
+                <div class="row" id="gallery">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallary-img.jpeg.jpg" alt="Gallery Image 1" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img2.jpeg.jpg" alt="Gallery Image 2" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img3.jpeg.jpg" alt="Gallery Image 3" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img4.jpeg.jpg" alt="Gallery Image 4" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img5.jpg" alt="Gallery Image 5" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img6.jpeg.jpg" alt="Gallery Image 6" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img7.jpeg.jpg" alt="Gallery Image 7" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img8.jpg" alt="Gallery Image 9" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img9.jpeg.jpg"alt="Gallery Image 10" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img10.jpeg.jpg" alt="Gallery Image 11" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img11.jpeg.jpg" alt="Gallery Image 12" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item">
+                        <img src="Gallery-img12.jpeg.jpg" alt="Gallery Image 12" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+            <button class="lightbox-prev" aria-label="Previous image">&lt;</button>
+            <button class="lightbox-next" aria-label="Next image">&gt;</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-md-4 mb-4">
+                    <h4>About Us</h4>
+                    <p>Shri Samarth Construction is a trusted leader in concrete and mixing services, consistently delivering top-quality results while meeting industry standards and exceeding client expectations.</p>
+                </div>
+        
+                <div class="col-md-4 mb-4">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-info list-unstyled">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span> <a href="https://maps.app.goo.gl/jTg7JU2TZw89bvwF8">Beed bypass, Sambhaji Maharaj Square, Beed</a></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone:</strong><br>
+                                <a href="tel:9422295192">Manojkumar Pathak: 9422295192</a><br>
+                                <a href="tel:9730972384">Rushikesh Thigle: 9730972384</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:shrisamarthconstruction@gmail.com">shrisamarthconstruction@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="col-md-4 mb-4">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/shrisamarthconstruction" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/shrisamarthconstruction" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Follow us on Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="footer-bottom text-center">
+                <p>© <span id="currentYear"></span> Shri Samarth Construction | All Rights Reserved</p>
+                <p>Powered by <a href="https://www.cybromatech.com" target="_blank" rel="noopener noreferrer">Cybromatech Technology Pvt Ltd</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const galleryItems = document.querySelectorAll('.gallery-item img');
+            const closeBtn = document.querySelector('.lightbox-close');
+            const prevBtn = document.querySelector('.lightbox-prev');
+            const nextBtn = document.querySelector('.lightbox-next');
+            let currentIndex = 0;
+
+            function openLightbox(index) {
+                currentIndex = index;
+                lightboxImg.src = galleryItems[index].src;
+                lightboxImg.alt = galleryItems[index].alt;
+                lightbox.classList.add('active');
+            }
+
+            function closeLightbox() {
+                lightbox.classList.remove('active');
+            }
+
+            function showPrevImage() {
+                currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+                lightboxImg.src = galleryItems[currentIndex].src;
+                lightboxImg.alt = galleryItems[currentIndex].alt;
+            }
+
+            function showNextImage() {
+                currentIndex = (currentIndex + 1) % galleryItems.length;
+                lightboxImg.src = galleryItems[currentIndex].src;
+                lightboxImg.alt = galleryItems[currentIndex].alt;
+            }
+
+            galleryItems.forEach((img, index) => {
+                img.addEventListener('click', () => openLightbox(index));
+            });
+
+            closeBtn.addEventListener('click', closeLightbox);
+            prevBtn.addEventListener('click', showPrevImage);
+            nextBtn.addEventListener('click', showNextImage);
+
+            lightbox.addEventListener('click', function(e) {
+                if (e.target === lightbox) {
+                    closeLightbox();
+                }
+            });
+
+            document.addEventListener('keydown', function(e) {
+                if (!lightbox.classList.contains('active')) return;
+                if (e.key === 'Escape') closeLightbox();
+                if (e.key === 'ArrowLeft') showPrevImage();
+                if (e.key === 'ArrowRight') showNextImage();
+            });
+        });
+    </script>
+</body>
+</html>
